@@ -40,6 +40,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controller\Program.cs" />
     <Compile Include="Controller\DigDug.cs" />
+    <Compile Include="Model\Player.cs" />
+    <Compile Include="Model\Pooka.cs" />
+    <Compile Include="Model\Fygar.cs" />
+    <Compile Include="View\Animation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="icon.ico" />
