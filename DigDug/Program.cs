@@ -1,4 +1,4 @@
-﻿#region Using Statements
+#region Using Statements
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,11 +20,11 @@ namespace DigDug
 	static class Program
 #endif
 	{
-		private static Game1 game;
+		private static DigDug game;
 
 		internal static void RunGame()
 		{
-			game = new Game1();
+			game = new DigDug();
 			game.Run();
 #if !__IOS__ && !__TVOS__
 			game.Dispose();
